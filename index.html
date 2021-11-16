@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Good morning</title>
+        <style>
+            .container{
+                width:500px;
+                box-sizing: 2px solid red;
+                box-shadow: 2px 5px rgb(85, 81, 81);
+                margin:100px auto;
+                padding:10px;
+            }
+            button{
+                padding:10px;
+            }
+        </style>
+        <script>
+            function goodm(){
+                var gm=document.getElementById("msge");
+                gm.innerText="Good Morning Nagaraj"
+            }
+            function goode(){
+                var ge=document.getElementById("msge");
+                ge.innerText="Good Evening Nagaraj"
+            }
+            function goodn(){
+                var gn=document.getElementById("msge");
+                gn.innerText="Good night Nagaraj"
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 id="msge">Hello Nagaraj</h2>
+            <button onclick="goodm()">Good Morning</button>
+            <button onclick="goode()">Good Evening</button>
+            <button onclick="goodn()">Good Night</button>
+        </div>
+    </body>
+</html>
